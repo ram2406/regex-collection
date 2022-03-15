@@ -1,9 +1,14 @@
 # regex-collection
 The regular expression book for me
 
-## import (\{.*?\}|\w+|\{(\w|\n|,|\s)*?\}) from (.*);
+## regex for find import to replace require
+```regex
+import (\{.*?\}|\w+|\{(\w|\n|,|\s)*?\}) from (.*);
+```
 ### replace
+```regex
 const $1 = require($3);
+```
 #### example data
 ```js
 import http from "http";
