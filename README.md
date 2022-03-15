@@ -5,8 +5,8 @@ The regular expression book for me
 ### replace
 const $1 = require($3);
 #### example data
-import http from "http";
 ```js
+import http from "http";
 import {
   addGatewayDataSourceToSubscriptionContext,
   getGatewayApolloConfig,
